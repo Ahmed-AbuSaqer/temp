@@ -465,7 +465,7 @@ a {
 }
 
 .page .header {
-  background-image: url(../images/header_cover.png);
+  background-image: url(../images/bg.png);
   background-size: cover;
   background-position: center;
   height: 95vh;
@@ -486,8 +486,36 @@ a {
   height: calc(100vh - 250px);
   line-height: 65vh;
   position: relative;
-  z-index: 1;
+  z-index: 10;
 }
+.absolutebg{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  background-image: url(../images/back.png);
+  background-size: cover;
+  background-position: center;
+  height: 95vh;
+  background-repeat: no-repeat;
+  z-index: 6;
+}
+
+.absolutebg div{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  background-image: url(../images/front.png);
+  background-size: cover;
+  background-position: center;
+  height: 95vh;
+  background-repeat: no-repeat;
+  z-index: 7;
+}
+
 
 @media (max-width: 768px) {
   .page .header .title {
@@ -636,6 +664,17 @@ a {
     max-width: 140px;
     margin: auto;
     margin-bottom: 15px;
+    padding-top: 70px;
+  }
+  .page .link_appstore .disc_link{
+    gap:50px;
+  }
+  .page .link_appstore{
+    gap:0;
+  }
+  .page .link_appstore .disc_link {
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
