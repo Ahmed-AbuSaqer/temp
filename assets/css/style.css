@@ -475,12 +475,7 @@ a {
   text-align: center;
 }
 
-@media (max-width: 768px) {
-  .page .header {
-    height: 500px;
-    padding-top: 30px;
-  }
-}
+
 
 .page .header .title {
   height: calc(100vh - 250px);
@@ -514,6 +509,19 @@ a {
   height: 95vh;
   background-repeat: no-repeat;
   z-index: 7;
+}
+
+@media (max-width: 768px) {
+  .page .header {
+    height: 500px;
+    padding-top: 30px;
+  }
+  .absolutebg {
+    height: 500px;
+  }
+  .absolutebg div {
+    height: 500px;
+  }
 }
 
 
