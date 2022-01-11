@@ -6,7 +6,7 @@
   top: 0;
   right: 0;
   /* opacity: 0.6; */
-  z-index: 1;
+  z-index: 7;
 }
 
 /*Time to finalise the cloud shape*/
@@ -497,7 +497,7 @@ a {
   z-index: 6;
 }
 
-.absolutebg div{
+.absolutebg2{
   position: absolute;
   top: 0;
   left: 0;
@@ -508,7 +508,7 @@ a {
   background-position: center;
   height: 95vh;
   background-repeat: no-repeat;
-  z-index: 7;
+  z-index: 8;
 }
 
 @media (max-width: 768px) {
@@ -519,7 +519,7 @@ a {
   .absolutebg {
     height: 500px;
   }
-  .absolutebg div {
+  .absolutebg2 {
     height: 500px;
   }
 }
