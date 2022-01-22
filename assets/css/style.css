@@ -63,16 +63,16 @@
 .x1 {
   top: 2%;
   /* left: -500px; */
-  -webkit-animation: moveclouds 20s linear infinite;
-  animation: moveclouds 20s linear infinite;
+  -webkit-animation: moveclouds 70s linear infinite;
+  animation: moveclouds 70s linear infinite;
 }
 
 /*variable speed, opacity, and position of clouds for realistic effect*/
 .x2 {
   top: 10%;
   /* left: -400px; */
-  -webkit-animation: moveclouds 20s linear infinite;
-  animation: moveclouds 20s linear infinite;
+  -webkit-animation: moveclouds 70s linear infinite;
+  animation: moveclouds 70s linear infinite;
 
   /* left: 200px;
   top: 220px; */
@@ -90,8 +90,8 @@
 
 .x3 {
   top: 30%;
-  -webkit-animation: moveclouds2 20s linear infinite;
-  animation: moveclouds2 20s linear infinite;
+  -webkit-animation: moveclouds2 70s linear infinite;
+  animation: moveclouds2 70s linear infinite;
 
   /* left: -250px;
   top: -200px; */
@@ -107,8 +107,8 @@
 
 .x4 {
   top: 38%;
-  -webkit-animation: moveclouds2 20s linear infinite;
-  animation: moveclouds2 20s linear infinite;
+  -webkit-animation: moveclouds2 70s linear infinite;
+  animation: moveclouds2 70s linear infinite;
 
   /* left: 0px; */
 
@@ -124,8 +124,8 @@
 
 .x5 {
   top: 58%;
-  -webkit-animation: moveclouds 20s linear infinite;
-  animation: moveclouds 20s linear infinite;
+  -webkit-animation: moveclouds 70s linear infinite;
+  animation: moveclouds 70s linear infinite;
 
   /* right: 50px;
   top: 150px; */
@@ -151,8 +151,8 @@
 
 .x6 {
   top: 66%;
-  -webkit-animation: moveclouds 20s linear infinite;
-  animation: moveclouds 20s linear infinite;
+  -webkit-animation: moveclouds 70s linear infinite;
+  animation: moveclouds 70s linear infinite;
 
   /* left: 100px; */
 
@@ -763,7 +763,9 @@ a {
 
 .page .link_appstore .disc_link .link_img .info .lower img {
   width: 200px;
+  margin-top: 5px;
 }
+
 
 @media (max-width: 768px) {
   .page .link_appstore .disc_link .link_img .info .lower img {
@@ -804,6 +806,7 @@ a {
   height: 400px;
   bottom: -20px;
   left: -50px;
+  z-index: -1;
   /* -webkit-animation: scaleUp_down 5s linear infinite;
   animation: scaleUp_down 5s linear infinite;
   -webkit-animation-direction: normal;
@@ -829,6 +832,15 @@ a {
     bottom: 15px;
     left: -5px;
   }
+}
+
+@media (max-width: 500px) {
+  .page .link_appstore .disc_link .boy {
+    bottom: 60px;
+  }
+  .page .link_appstore .disc_link .link_img .info .lower img {
+    width: 120px;
+}
 }
 
 @media (max-width: 768px) {
